@@ -37,7 +37,7 @@ export const protectedRoutes = [
       { path: '/discussions/*', element: <DiscussionsRoutes /> },
       { path: '/users', element: <Users /> },
       { path: '/profile', element: <Profile /> },
-      { path: '/testing', element: <Profile /> },
+      { path: '/testing2', element: <Profile /> },
       { path: '/', element: <Dashboard /> },
       { path: '*', element: <Navigate to="." /> },
     ],
